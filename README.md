@@ -1,6 +1,4 @@
-# Mi primer README
-My Coding Journey Repository
-Overview
+
 Welcome to my coding journey repository! 🚀 As someone who is relatively new to the world of coding, I've decided to document my progress and share it with the community. This repository will serve as a visual timeline of my learning experience, starting with the projects from FreeCodeCamp.
 
 About Me:
