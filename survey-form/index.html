@@ -7,27 +7,42 @@
     <title>Favorite Car Survey</title>
 </head>
 <body>
-    <h1>Favorite Car Survey</h1>
+    <h1 id="title">Favorite Car Survey</h1>
     <p id="description">Please fill out this form and let us know what is your favorite car!</p>
 
     <form id="survey-form">
-        <label for="name" id="name-label">Your Name: </label><input type="text" name="" id="name" placeholder="Enter your full name" required>
+        <label for="name" id="name-label">Your Name: </label>
+        <input type="text" name="" id="name" placeholder="Enter your full name" required>
 
-        <label for="email" id="email">Email: </label><input type="email" name="email" id="email-label" placeholder="Enter a valid Email" required>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-        <label for="number" id="number-label">How old are you: </label><input type="number" name="age" id="number" min="12" max="120" placeholder="Select your age" required>
+        <label for="number" id="number-label">How old are you: </label>
+        <input type="number" name="age" id="number" min="12" max="120" placeholder="Select your age" required>
 
-        <label for="dropdown">Favorite Car Make: </label><select name="car-make" id="dropdown"><option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option></select>
+        <label for="dropdown">Favorite Car Make: </label><select name="car-make" id="dropdown">
+        <option value="0">Choose one: </option>
+        <option value="1" >Ford</option>
+        <option value="2">Honda</option>
+        <option value="3">BMW</option>
+        <option value="4">Mercedez Benz</option>
+        <option value="5">Toyota</option>
+        <option value="6">Mitsubishi</option>
+        <option value="7">Subaru</option>
+        <option value="8">Ferrari</option>
+        <option value="9">Lamborguini</option></select>
+
+       <fieldset>
+        <legend>Prefered transmission type: </legend>
+           <label><input type="radio" name="prefered-transmission" value="manual" checked> Manual</label><br>
+           <label><input type="radio" name="prefered-transmission" value="automatic"> Automatic</label>
+       </fieldset> 
+
+       <fieldset>
+        <legend>Prefered body type: </legend>
+        <label for="body-type"><input type="checkbox" name="" id=""></label>
+       </fieldset>
     </form>
     
 </body>
-</html>
+</html>Prefered transmission type: 
