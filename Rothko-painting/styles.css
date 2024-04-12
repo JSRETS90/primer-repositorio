@@ -18,6 +18,7 @@
     height: 150px;
     background-color: #efb762;
     margin: 20px auto;
+    box-shadow: 0 0 3px 3px #efb762;
 }
 
 .two {
@@ -25,6 +26,7 @@
     height: 200px;
     background-color: #8f0401;
     margin: 0 auto 20px;
+    box-shadow: 0 0 3px 3px #8f0401;
 }
 
 .three {
@@ -32,4 +34,10 @@
     height: 28%;
     background-color: #b20403;
     margin: auto;
+    filter: blur(2px);
+    box-shadow: 0 0 5px 5px #b20403;
+}
+
+.one, .two {
+    filter: blur(1px);
 }
