@@ -11,6 +11,8 @@ body {
     width: 100%;
     max-width: 350px;
     height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .header {
@@ -20,4 +22,16 @@ body {
     background: #0a0a23;
     color: #fff;
     border-bottom: 4px solid #fdb347;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 16px;
 }
