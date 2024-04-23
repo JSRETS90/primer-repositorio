@@ -72,3 +72,11 @@ p {
     font-size: 2.4em;
     font-weight: 700;
 }
+
+.medium {
+    height: 5px;
+}
+
+.right {
+    justify-content: flex-end;
+}
