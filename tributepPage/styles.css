@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    display: flexbox;
 }
 
 body {
@@ -10,7 +9,9 @@ body {
 
 #image {
     display:block;
-    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     max-width: 100%;
     height: auto;
     opacity: 79%;
@@ -23,4 +24,38 @@ h1, h2 {
 p {
         color: rgb(146, 107, 9);
         font-family: cursive;
+}
+
+#header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: rgb(177, 131, 14);
+    font-size: 45px;
+    text-align: center;
+}
+
+#tribute-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+
+#sisters {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+
+#img-caption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
 }
