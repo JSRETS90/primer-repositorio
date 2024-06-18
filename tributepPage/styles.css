@@ -1,15 +1,26 @@
 * {
     margin: 0;
     padding: 0;
+    display: flexbox;
 }
 
 body {
-    background-color: bisque;
+    background: radial-gradient(circle, rgba(135,1,1,0.8463760504201681) 2%, rgba(6,0,2,0.8575805322128851) 73%); 
 }
 
 #image {
     display:block;
-    position: relative;
-    max-width: auto;
+    position: center;
+    max-width: 100%;
     height: auto;
+    opacity: 79%;
+}
+
+h1, h2 {
+    color: rgb(177, 131, 14);
+    }
+    
+p {
+        color: rgb(146, 107, 9);
+        font-family: cursive;
 }
