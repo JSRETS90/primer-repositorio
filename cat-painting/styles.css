@@ -20,11 +20,10 @@ body {
     border-radius: 46%;
 }
 
-.box {
-    width: 200px;
-    height: 600px;
-    background-color: #000;
-    position: absolute;
-    left: 650px;
-    top: 800px;
-}
+.cat-left-ear {
+    height: 0;
+    width: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+  }
