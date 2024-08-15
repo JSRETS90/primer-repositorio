@@ -72,3 +72,8 @@ body {
     border-bottom: 40px solid #3b3b4f;
   }
 
+ .cat-left-eye {
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+  }
