@@ -72,8 +72,24 @@ body {
     border-bottom: 40px solid #3b3b4f;
   }
 
- .cat-left-eye {
+.cat-left-eye {
+    position: absolute;
+    top: 54px;
+    left: 39px;
+    border-radius: 60%;
+    transform: rotate(25deg);
     width: 30px;
     height: 40px;
     background-color: #000;
   }
+
+.cat-right-eye {
+    position: absolute;
+    top: 54px;
+    left: 134px;
+    border-radius: 60%;
+    transform: rotate(-25deg);
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+  } 
