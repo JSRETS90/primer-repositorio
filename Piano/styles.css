@@ -11,3 +11,10 @@ html {
     width: 992px;
     height: 290px;
   }
+
+  .keys {
+    background-color: #040404;
+    width: 949px;
+    height: 180px;
+    padding-left: 2px;
+  }
