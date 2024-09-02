@@ -4,6 +4,7 @@
   --building-color2: #66cc99;
   --building-color3: #cc6699;
   --building-color4: #538cc6;
+  --window-color1: black;
 }
 * {
     border: 1px solid black;
@@ -41,6 +42,10 @@
     width: 70%;
     height: 10%;
     background-color: var(--building-color1);
+    background: linear-gradient(
+        var(--building-color1),
+        var(--window-color1)
+      );
   }
   
   .bb1b {
@@ -98,12 +103,16 @@
   }
   
   .fb4 {
+    position: relative;
+    left: 10%;
     width: 8%;
     height: 45%;
     background-color: var(--building-color1);
   }
   
   .fb5 {
+    position: relative;
+    right: 10%;
     width: 10%;
     height: 33%;
     background-color: var(--building-color2);
